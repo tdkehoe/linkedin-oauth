@@ -1,5 +1,3 @@
-https://git.heroku.com/pacific-brook-4938.git
+https://pacific-brook-4938.herokuapp.com/
 
-Authentication Keys
-Client ID:	78ahzm1auahdt6
-Client Secret:	wpUKDXWeOmkINkig
+https://pacific-brook-4938.herokuapp.com/auth/linkedin/callback
