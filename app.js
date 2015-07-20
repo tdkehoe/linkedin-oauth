@@ -80,6 +80,12 @@ passport.deserializeUser(function(user, done) {
   done(null, user);
 });
 
+// right above app.use('/', routes);
+app.use(function (req, res, next) {
+  res.locals.user = req.user;
+  next()
+})
+
 app.use('/', routes);
 app.use('/users', users);
 
